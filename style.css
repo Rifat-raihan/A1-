@@ -242,14 +242,12 @@ body {
   padding: 100px 0;
   background: #f9fafb;
 }
-
 .solution-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 80px;
   align-items: center;
 }
-
 .solution-visual {
   position: relative;
   display: flex;
@@ -270,7 +268,7 @@ body {
   transform: translate(-50%, -50%);
   width: 500px;
   height: 500px;
-  background: white;
+  background: rgb(230, 230, 230);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -298,7 +296,7 @@ body {
 
 .cta-section {
   padding: 100px 0;
-  background: #f3f4f6;
+  background: #eaeef6;
   text-align: center;
 }
 
@@ -377,7 +375,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: rgb(241, 236, 236);
   text-decoration: none;
   font-weight: 600;
   transition: all 0.3s;
@@ -387,18 +385,15 @@ body {
   height: 18px;
   filter: brightness(0) invert(1);
 }
-
 .social-link:hover {
   background: rgba(255, 255, 255, 0.2);
   transform: translateY(-2px);
 }
-
 .footer-bottom {
   text-align: center;
   padding-top: 30px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
-
 .footer-bottom p {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
